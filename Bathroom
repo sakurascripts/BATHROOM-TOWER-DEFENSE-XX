@@ -1,0 +1,303 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeianRussell/Kavo-UI-Library/main/Movable.source.lua"))()
+local Window = Library.CreateLib("Bathroom Tower Defense X Ep 77 Part 4 (Made by renzjhamil77)", "DarkTheme")
+ 
+local Tab = Window:NewTab("Units")
+local Section = Tab:NewSection("all Units")
+ 
+ 
+Section:NewButton("Big Cameraguy", "ButtonInfo", function()
+ game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Big Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))   
+end)
+ 
+Section:NewButton("Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Saw Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Saw Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Speakergal", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Speakergal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Upgraded Ninja Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Ninja Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+ 
+end)
+ 
+Section:NewButton("TV-Guy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Cameragal", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cameragal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("TV-Gal", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("TV-Gal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Corrupted Big Speakerguy(325)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Corrupted Big Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Upgraded Supreme Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Supreme Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+ 
+end)
+ 
+Section:NewButton("Dark Cameragal (325)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Dark Cameragal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Supreme Cinemaguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Supreme Cinemaguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Big Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Big Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Corrupted Supreme Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Corrupted Supreme Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Big TV-Guy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Big TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Scientist Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Scientist Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))           
+end)
+ 
+Section:NewButton("Upgraded Corrupted Supreme Speakerguy(1400)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Corrupted Supreme Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Upgraded Supreme Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Supreme Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Corrupted Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Corrupted Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))    
+end)
+ 
+Section:NewButton("Supreme Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Supreme Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))     
+end)
+ 
+Section:NewButton("Ninja Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Ninja Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))    
+end)
+ 
+Section:NewButton("Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))     
+end)
+ 
+Section:NewButton("Supreme Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Supreme Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Big Scientist Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Big Scientist Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Rocket Flying Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Rocket Flying Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Supreme Pumkin Sorcerer", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Supreme Pumpkin Sorcerer", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Rocket Big Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Rocket Big Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Acidgun Upgraded Supreme Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Acidgun Upgraded Supreme Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Snowball Cameraguy(200)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Snowball Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Elf Cameraguy(175)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Elf Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))         
+end)
+ 
+Section:NewButton("Supreme Snowball Cameraguy(1100)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Supreme Snowball Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Red Nose TV-Guy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Red Nose TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Frost Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Frost Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Hacker Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Hacker Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))          
+end)
+ 
+Section:NewButton("Spiked Plunger Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Spiked Plunger Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Metal Bat Speakerguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Metal Bat Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Shotgun Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Shotgun Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Medical Flying Speaker", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Medical Flying Speaker", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Big Laser Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Big Laser Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Flamethrower Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Flamethrower Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Dart Gun Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Dart Gun Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Dark TV-Guy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Dark TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Hacker Ninja Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Hacker Ninja Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Invisible Cameraguy(400)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Invisible Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Cyber Laser Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cyber Laser Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Cyber Strider", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cyber Strider", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Upgraded Mech Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Mech Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Handsaw Upgraded Supreme Cameraguy(1575)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Handsaw Upgraded Supreme Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))       
+end)
+ 
+Section:NewButton("Upgraded Supreme Cinemaguy(2000)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Supreme Cinemaguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Astroclaw Upgraded Supreme Cameraguy(2250)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Astroclaw Upgraded Supreme Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Dual Dartgun Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Dual Dartgun Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Enraged Supreme Cinemaguy(2400)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Enraged Supreme Cinemaguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Gigadagger Supreme Speakerguy(2000)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Gigadagger Supreme Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Energized TV-Guy(800)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Energized TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Upgraded Scientist Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Scientist Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Super Mutant-Gal(700)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Super Mutant-Gal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Crusher Toilet Cameraguy(1200)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Crusher Toilet Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Buzzsaw Commander Cameraguy(1050)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Buzzsaw Commander Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Thermonuclear Cameraguy(550)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Thermonuclear Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Upgraded Dark Cameragal", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Upgraded Dark Cameragal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Dual Sickle Mutant", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Dual Sickle Mutant", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Berserk Cannon Mutant", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Berserk Cannon Mutant", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Cameragal 3.0", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cameragal 3.0", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))        
+end)
+ 
+Section:NewButton("Cameraguy 3.0", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Cameraguy 3.0", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))
+end)
+ 
+Section:NewButton("Astroclaw TV-Guy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Astroclaw TV-Guy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))         
+end)
+ 
+Section:NewButton("Super Satellite Camera", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Super Satellite Camera", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Trick-Or-Treat Speakerguy(500)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Trick-Or-Treat Speakerguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Spooky Cameraguy(550)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Spooky Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Witch Cameragal(900)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Witch Cameragal", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Savior Pumpkin King(2300)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Savior Pumpkin King", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Super Strider Cameraguy", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Super Strider Cameraguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Demon Supreme Cinemaguy(1900)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Demon Supreme Cinemaguy", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
+
+Section:NewButton("Gman 5.0(1650)", "ButtonInfo", function()
+   game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer("Commander Boss Toilet", CFrame.new(game.Players.LocalPlayer.Character.Head.Position))                  
+end)
